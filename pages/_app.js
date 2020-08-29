@@ -20,7 +20,7 @@ class MyApp extends App{
     render(){
         const { Component, pageProps } = this.props;
         const config = { 
-            apiKey: 'SHOPIFY_API_KEY', 
+            apiKey: SHOPIFY_API_KEY, 
             shopOrigin: Cookies.get("shopOrigin"), 
             forceRedirect: true 
         };
