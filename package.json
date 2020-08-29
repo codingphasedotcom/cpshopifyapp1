@@ -1,0 +1,43 @@
+{
+  "name": "shopifyapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js --exec",
+    "build": "next build",
+    "start": "next start",
+    "prod": "node server.js"
+  },
+  "engines": {
+    "node": "10.22"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.1.2",
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^8.0.7",
+    "@shopify/app-bridge-react": "^1.26.2",
+    "@shopify/koa-shopify-auth": "^3.1.65",
+    "@shopify/koa-shopify-graphql-proxy": "^4.0.1",
+    "@shopify/koa-shopify-webhooks": "^2.5.0",
+    "@shopify/polaris": "^5.1.0",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-session": "^6.0.0",
+    "koa-static": "^5.0.0",
+    "next": "9.4.4",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-boost": "^1.1.0",
+    "react-dom": "16.13.1",
+    "store-js": "^2.0.4"
+  }
+}
