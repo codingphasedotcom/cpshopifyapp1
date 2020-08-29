@@ -25,7 +25,7 @@
   
 }
   
-$.get( "https://a3af5b4080bd.ngrok.io/api/banners", function(data) {
+$.get( "https://cpshopifyapp1.herokuapp.com/api/banners", function(data) {
     console.log( "success" );
     // console.log(data)
   })
